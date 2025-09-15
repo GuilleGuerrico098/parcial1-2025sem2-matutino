@@ -9,19 +9,120 @@
 </head>
 
 <body>
-    <h1>Ejercicio 01</h1>
-    <p>
-        Replicar la composición de ej_01_referencia.jpg lo más fiel posible,
-        respetando tipografías, tamaños, colores, espaciados y
-        alineaciones de cada sección. En /assets se encuentran las imágenes a usar
-        y en textos.md todo el contenido del menú. La entrega debe resolverse solo con
-        HTML + CSS (sin frameworks/JS).
-    </p>
-    <p>
-        La fuente a utilizar (Rufina Bold) ya ha sido descargada y agregada en
-        /assets/fonts, y se encuentra referenciada en el archivo ej01.css.
-        Solo deben aplicarla donde corresponda.
-    </p>
+    <header class="hero">
+        <div>
+            <h1 class="Marca">Los pollos <br/> Hermanos</h1>
+            <p class="Slogan"> El sabor que hace que hasta heinsenberg se saque el sombrero</p>
+            </div>
+    <img class="hero__logo" src="./assets/los_pollos_hermanos.png" alt="Los Pollos Hermanos"/>
+    </div>
+  </header>
+<main class="contenedor">
+    <section class="seccion">
+      <h2 class="seccion__titulo">Entradas</h2>
+      <p class="seccion__subtitulo">El primer paso a la adicción</p>
+
+      <div class="dos">
+        <figure class="ilustracion">
+          <img src="./assets/better_call_saul.png" alt="Saul con nachos"/>
+        </figure>
+
+        <ul class="lista__platos">
+          <li class="plato">
+            <div class="plato__linea">
+              <span>Alitas de Crystal Meth</span>
+              <span class="precio">$20</span>
+            </div>
+            <p class="descripcion">Crujientes y adictivas, servidas con una salsa “azul” de la casa.</p>
+          </li>
+           <li class="plato">
+            <div class="plato__linea">
+              <span>Nachos Salamanca</span>
+              <span class="precio">$18</span>
+            </div>
+            <p class="descripcion">Se comen rápido, pero cuidado… siempre hay consecuencias.</p>
+          </li>
+
+          <li class="plato">
+            <div class="plato__linea">
+              <span>Guacamole Better Call Saul</span>
+              <span class="precio">$12</span>
+            </div>
+            <p class="descripcion">Ideal para empezar la velada con una defensa impecable.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+<section class="seccion">
+      <h2 class="seccion__titulo">Platos Principales</h2>
+      <p class="seccion__subtitulo">La verdadera cocina de Los Pollos Hermanos</p>
+      <div class="dos invertido">
+        <ul class="lista__platos">
+          <li class="plato">
+            <div class="plato__linea">
+              <span>Pollo a la Gus Fring</span>
+              <span class="precio">$20</span>
+            </div>
+            <p class="descripcion">Perfecto, impecable, sin una sola falla.</p>
+          </li>
+
+          <li class="plato">
+            <div class="plato__linea">
+              <span>Ribs al estilo Heisenberg</span>
+              <span class="precio">$22</span>
+            </div>
+            <p class="descripcion">Tan intensas que parecen cocinadas en un laboratorio de química.</p>
+          </li>
+                    <li class="plato">
+            <div class="plato__linea">
+              <span>Steak “Say My Name”</span>
+              <span class="precio">$20</span>
+            </div>
+            <p class="descripcion">Jugoso, potente y servido con respeto absoluto.</p>
+          </li>
+        </ul>
+
+        <figure class="ilustracion">
+          <img src="./assets/walter_white.png" alt="Heisenberg con costillas"/>
+        </figure>
+      </div>
+    </section>
+    
+    <section class="seccion">
+      <h2 class="seccion__titulo">Postres y Bebidas</h2>
+      <p class="seccion__subtitulo">Para terminar la jornada como un capo del cartel</p>
+
+      <div class="dos">
+        <figure class="ilustracion">
+          <img src="./assets/gustavo_fring.png" alt="Gus con flan"/>
+        </figure>
+        <ul class="lista__platos">
+          <li class="plato">
+            <div class="plato__linea">
+              <span>Flan del Desierto</span>
+              <span class="precio">$40</span>
+            </div>
+            <p class="descripcion">Suave, dorado y con un caramelo tan dulce que parece cocinado bajo el sol de Albuquerque.</p>
+          </li>
+           <li class="plato">
+            <div class="plato__linea">
+              <span>Café Lalo Salamanca</span>
+              <span class="precio">$30</span>
+            </div>
+            <p class="descripcion">Fuerte, con un “golpe” inesperado al final.</p>
+          </li>
+
+          <li class="plato">
+            <div class="plato__linea">
+              <span>Whisky Pollos Hermanos</span>
+              <span class="precio">$90</span>
+            </div>
+            <p class="descripcion">Tan suave que hasta Mike se tomaría uno después del turno.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>

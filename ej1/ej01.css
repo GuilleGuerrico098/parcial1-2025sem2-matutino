@@ -4,3 +4,120 @@
   font-weight: 700;
   font-style: normal;
 }
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.5;
+  color: #222;
+  background: #fff;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f3d214;
+  padding: 16px;
+}
+
+.Marca {
+  margin:  8px ;
+  font-size: 40px;
+  line-height: 1.1;
+  font-family: 'Rufina', serif;
+  font-weight: 700;
+}
+.Slogan {
+  margin: 0;
+  font-size: 14px;
+  max-width: 520px;
+}
+
+.hero__logo {
+  width: 160px;
+  height: auto;
+  display: block;
+}
+.contenedor {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.seccion {
+  margin: 40px 0;
+}
+
+.seccion__titulo {
+  margin: 6px ;
+  font-size: 28px;
+  font-family: 'Rufina', serif;
+  font-weight: 700;
+}
+.seccion__subtitulo {
+  margin: 16px ;
+  font-size: 13px;
+  color: #666;
+}
+
+.dos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  align-items: center;
+  direction: ltr;
+}
+
+.ilustracion {
+  margin: 0;
+}
+
+.ilustracion img {
+  width: 400px;
+}
+.lista__platos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.plato {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+.plato__linea {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.precio {
+  white-space: nowrap;
+}
+
+.descripcion {
+  margin: 6px ;
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .hero__logo {
+    width: 120px;
+  }
+}
+
+

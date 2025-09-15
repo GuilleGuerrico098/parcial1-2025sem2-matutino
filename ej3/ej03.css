@@ -1,3 +1,4 @@
+/*lo modifiqué en un principio pero luego volvi a como estaba
 /* 
   Modificar este código CSS con los estilos necesarios.
 */
@@ -30,6 +31,7 @@ body {
   /* on */
   position: absolute;
 }
+
 
 /* Diseño de los 7 segmentos. Por favor no modificar*/
 #seg-a {
